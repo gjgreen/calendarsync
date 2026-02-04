@@ -17,10 +17,10 @@ A Python-based bridge that syncs accepted Outlook meetings from a work laptop to
 2. **Google Calendar:**
    - Create a new calendar in your Gmail account named **Work**.
 3. **Libraries:**
-   - Run `pip install -r requirements.txt`.
+   - Run `pip install -r requirements.txt` or `py -m pip install -r requirements.txt`.
 
 ## How to Run
-- **Manual:** Run `python calendarsync.py`.
+- **Manual:** Run `python calendarsync.py` or `py .\calendarsync.py`.
 - **Automatic:** Use the provided `run_sync.bat` with Windows Task Scheduler.
 
 ## Troubleshooting
